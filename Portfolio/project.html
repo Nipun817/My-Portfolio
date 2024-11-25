@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        
+    }
+    body{
+        background-color: rgba(8, 8, 8, 0.858);
+    }
+    .main{
+        border: 2px solid;
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        left: 0%;
+        top: 0%;
+        padding: 0;
+        font-size: 30px;
+        
+        
+    }
+    .navdiv{
+        text-decoration: none;
+        border: 2px solid;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        
+    
+    }
+    
+    nav a{
+        text-decoration: none;
+        padding: 20px 60px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        
+    }
+    nav a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    nav a:hover::after{
+         width: 100%;
+    }
+    a:link{
+            color:rgb(18, 1, 1);
+        }
+        
+        
+        a:visited{
+            color: rgb(9, 9, 10);
+        }
+        a:active{
+            color: rgb(70, 193, 146);
+        }
+        .div1{
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            margin: 10%;
+            font-size: 50px;
+            text-align: left;
+            
+            
+        }
+        
+        
+        .div2{font-size: 30px;
+            text-align: center;
+
+        }
+        .div3{
+            border: 2px solid white;
+            height: 200px;
+            width: 50%;
+            align-content: center;
+            margin-left: 300px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .sec2{
+            border: 2px solid white;
+        }
+        div{
+            margin-top: 20px;
+        }
+        .div5{margin-top: 50px;
+        border: 2px solid white;
+        height: 400px;}
+        .sec3{text-align: center;}
+        .div4{
+            margin-top: 100px; 
+        }
+        .space{
+            border: 2px solid white;
+            background-color: white;
+            width: 50%;
+            margin: 20px auto;
+            height: 300px;
+        }
+        .div7{border: 2px solid white;
+            background-image: url(contactphoto.jpg) ;
+            background-size: cover;
+            background-position:10% center;
+            background-repeat: no-repeat;
+            height: 400px;
+            width: 100%;
+            text-align: center;
+        
+        }
+        .label {
+            
+            border: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.8); 
+            width: 60%;
+            margin-left: 20%;
+            height: auto;
+            padding: 30px;
+            text-align: left;
+            border-radius: 8px;
+            gap: 12px;
+        }
+        input{
+            height: 30px;
+            width: 80%;
+            margin-top: 7px;
+            align-items: center;
+            
+        }
+        button{
+            height: 30px;
+            width: 80%;
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+        .div8{
+            border: 2px solid white;
+            height: 100px;
+            padding: 5px;
+
+        }
+        .footer{
+            border: 2px solid white;
+            background-color: white;
+            text-align: center;
+        }
+        
+
+        
+    
+
+</style>
+<body>
+    <section>
+        <div class="main">
+            <header>
+                <h1 ><span style="color: white;"><span style="color: #ff004f;">P</span>ortfolio</span></h1>
+            </header>
+        </div>
+    </section>
+    <div class="navdiv"><nav>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#contactus">Contact us</a>
+    </nav>
+    </div>
+    <div class="div1">
+        <img src="Portfolio - Copy.jpg" alt="" width="250px" height="300px">
+        <p style="margin-left: 10px;"><b><span style="color: #ff004f;">H</span>i, I am Nipun Mangla <br>And Welcome to my <br> Portfolio</b></p>
+        
+    </div> 
+    <section class="sec2">
+        <div class="div2" style="color: white;" id="about"><h1>About Me</h1></div>
+        <div class="div3"><p style="color: white;">Hi, I'm Nipun Mangla, a first year student at Lovely Professional University pursuing B-Tech. My goal is to leverage data to solve real-world problems and contribute to innovation in the tech industry. </p></div>
+    </section>
+    <section class="sec3">
+        <div class="div4" style="color: white;" id="project"><H1 style="font-size: 30px;">Projects<hr style="color: white;"></H1><div>
+        <div class="div5"><h1><u>Project1</u></h1>
+        <div class="space"><img src="my portfolio.png" alt="" width="200px" height="auto" style="margin-top: 10%;"><br>
+        <a href="project.html">Project Link</a> <br>
+        <a href="">Code Snippet</a></div></div>
+        <div class="div5"><h1><u>Project2</u></h1>
+            <div class="space"><img src="cap.jpg" alt="" width="300px" height="auto" style="margin-top: 5%;">
+            <p style="color: black;">In Progress..</p></div></div>
+        <div class="div5"><h1><u>Project3</u></h1>
+            <div class="space">hlo</div></div>
+    </section>
+    <section>
+        <div class="div7" id="contactus">
+            <h1 style="color: white;" ><span style="font-size: 30px;"> Contact us</span></h1>
+            <div class="label"><label for="i1">Name :</label> <br>
+            <input type="text"> <br>
+            <label for="i1">Email</label> <br>
+            <input type="email"><br>
+            <label for="i1">Mobile No.</label> <br>
+            <input type="tel" maxlength="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" > <br>
+            <button id="b1">Send</button>
+           
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="div8" id="contact" style="color: white;"><h1> Contact</h1>
+            <p>Email
+                <a href="mailto:nipunmangla2006@gmail.com" style="color: white;">nipunmangla2006@gmail.com</a><br>
+                Phone: +91 7027314393, +91 9350954734  
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <footer>
+                <p>&copy;2024 Portfolio Nipun Mangla</p>
+            </footer>
+        </div>
+    </section>
+    
+</body>
+</html>
